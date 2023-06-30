@@ -12,7 +12,7 @@ jobs:
       - name: Docker build chatservice
         run: echo "Docker build chatservice"
       - name: Docker build webapp
-        run: ech "Docker build webapp"
+        run: echo "Docker build webapp"
   CD:
     runs-on: ubuntu-latest
     steps:
